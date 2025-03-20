@@ -1,0 +1,19 @@
+* {
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+#id1{
+    background-color: red;
+    color: black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+#id2{
+    background-color: blue;
+    color: black;
+    width: 200px;
+    height: 200px;
+}

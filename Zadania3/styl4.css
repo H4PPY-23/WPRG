@@ -1,0 +1,13 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: rgb(216, 216, 216);
+}
+p > small{
+    color: red;
+}
+#id1{
+    color: red;
+}
