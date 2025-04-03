@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zadanie 4</title>
+        <style>
+            b{
+                font-size: large;
+            }
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            .nav {
+                background-color: #f0f0f0;
+                padding: 20px;
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+            }
+            main {
+                display: flex;
+                flex: 1;
+                padding: 20px;
+            }
+            .side {
+                width: 25%;
+                font-weight: bold;
+            }
+            .grid-box {
+                display: grid;
+                width: 75%;
+                grid-template-columns: repeat(2, 150px) 1fr;
+                grid-template-rows: auto auto;
+                gap: 20px;
+                margin-left: 20px;
+            }
+            .element, .element2 {
+                border: 1px solid #f0f0f0;;
+                padding: 10px 20px;
+            }
+            .info {
+                border: 1px solid #f0f0f0;;
+                padding: 10px 20px;
+                grid-row: span 2;
+            }
+            .element2{
+                grid-column: span 2;
+            }
+            footer {
+                text-align: center;
+                padding: 20px;
+                background-color: #f0f0f0;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <div>Strona główna</div>
+            <div>O nas</div>
+            <div>Kontakt</div>
+        </nav>
+
+        <main>
+            <aside class="side">
+                <h3>Witaj na naszej skomplikowanej stronie!</h3>
+            </aside>
+            <div class="grid-box">
+                <div class="element"><b>Funkcja 1</b><br>Opis funkcji 1...</div>
+                <div class="element"><b>Funkcja 2</b><br>Opis funkcji 2...</div>
+                <div class="info"><b>Dodatkowe informacje</b><br>...</div>
+                <div class="element2"><b>Funkcja 3</b><br>Opis funkcji 3...</div>
+            </div>
+        </main>
+        <footer>
+            &copy; 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone.
+        </footer>
+    </body>
+</html>
