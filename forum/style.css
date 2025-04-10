@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    display: inline-flex;
+    padding: 10px;
+    width: 100%;
+}
+input {
+    margin-right: 10px;
+    border: none;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.user{
+    display: flex;
+    
+}
+image, .username, .user-type{
+    margin-left: 10px;
+}
